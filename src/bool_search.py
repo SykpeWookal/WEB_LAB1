@@ -83,4 +83,6 @@ for file in files:
         if i in SearchTerm:
             InvertedIndex[i].add(file)
 
-print(InvertedIndex)
+#print(InvertedIndex)
+
+
