@@ -7,9 +7,11 @@ from nltk.corpus import stopwords    #停用词
 from nltk.stem import PorterStemmer    #词干提取
 from nltk.stem import WordNetLemmatizer    #词性还原
 
+import sklearn.decomposition as Spca
 import sklearn.feature_extraction.text as ft #tfidf模型训练器
 import numpy as np
 import scipy.spatial
+
 
 
 InvertedIndex = {}
@@ -17,7 +19,7 @@ SearchTerm = set()
 
 TfIdf_OnlySearchWordArray = []
 
-with open("实验一查询词表.txt", "r") as f:
+with open("../实验一查询词表.txt", "r") as f:
     for line in f.readlines():
         line = line.strip('\n')  #去掉列表中每一个元素的换行符
         #print(line)
@@ -33,7 +35,7 @@ with open("实验一查询词表.txt", "r") as f:
 PROJECT_DIR_PATH = os.path.dirname(os.path.abspath(os.path.abspath(__file__)))
 #print(PROJECT_DIR_PATH)
 #DIR_PATH = os.path.join(PROJECT_DIR_PATH, 'US_Financial_News_Articles/2018_01')
-DIR_PATH = os.path.join(PROJECT_DIR_PATH, 'US_Financial_News_Articles/TestSource')
+DIR_PATH = os.path.join(PROJECT_DIR_PATH, '../US_Financial_News_Articles/TestSource')
 #print(DIR_PATH)
 files = os.listdir(DIR_PATH)
 #print(len(files))
@@ -49,7 +51,7 @@ for file in files:
     DocIndex += 1
     #print(file)
     #f = open('US_Financial_News_Articles/2018_01/' + file, 'rb')
-    f = open('US_Financial_News_Articles/TestSource/' + file, 'rb')
+    f = open('../US_Financial_News_Articles/TestSource/' + file, 'rb')
     x = json.load(f)
     #print(type(x))
     #print(x['text'])
@@ -82,12 +84,12 @@ for file in files:
         tokens_finial.append(WordNetLemmatizer().lemmatize(i, pos='v'))   #指定还原词性为动词
     #print(tokens_finial)
 
-    #接下来生成倒排索引
-    for i in tokens_finial:
-        #print(i)
-        if i in SearchTerm:
-            InvertedIndex[i].add(file)
-
+    # #接下来生成倒排索引
+    # for i in tokens_finial:
+    #     #print(i)
+    #     if i in SearchTerm:
+    #         InvertedIndex[i].add(file)
+    #
 
     #########tfidf部分
     str = ''
@@ -122,14 +124,19 @@ Doc_featureNames = (cv.get_feature_names_out()).tolist() #语料库内所有的�
 TfMat = Doc_tfidf.toarray()
 # print(TfMat)
 # print(TfMat.shape)
-#print(Doc_featureNames)
+# print(Doc_featureNames)
 # print(len(featureNames))
 
+###################输出文件#############################
+TfOutPut_PATH = os.path.join(PROJECT_DIR_PATH, '../output/semantic_search_TfMat.txt')
+# fresult = open(OutPut_PATH,'w+')
+np.savetxt(TfOutPut_PATH,TfMat,fmt='%.2e',newline='\n')
+###################输出文件#############################
 
 #####以下处理查询输入
 finnal_searchWordsList = []
 
-with open("语义查询输入.txt", "rb") as f:
+with open("../语义查询输入.txt", "rb") as f:
     searchWords = f.read()
 
 tokens = word_tokenize(bytes.decode(searchWords))
@@ -178,9 +185,9 @@ ListDistance = distances.tolist()
 #print(type(distances.tolist()))
 #print(min(ListDistance))
 
-OutPut_PATH = os.path.join(PROJECT_DIR_PATH, 'output/semantic_search_Result.txt')
+OutPut_PATH = os.path.join(PROJECT_DIR_PATH, '../output/semantic_search_Result.txt')
 fresult = open(OutPut_PATH,'w+')
-
+fresult.write('与输入查询最相近的10条结果如下：\n')
 print("与输入查询最相近的10篇文章为：")
 for i in range(0,10):
     print(DocNameDict[ListDistance.index(min(ListDistance))])
