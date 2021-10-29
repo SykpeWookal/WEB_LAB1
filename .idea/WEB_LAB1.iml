@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module type="PYTHON_MODULE" version="4">
+  <component name="NewModuleRootManager">
+    <content url="file://$MODULE_DIR$">
+      <excludeFolder url="file://$MODULE_DIR$/US_Financial_News_Articles/2018_01" />
+      <excludeFolder url="file://$MODULE_DIR$/US_Financial_News_Articles/2018_02" />
+      <excludeFolder url="file://$MODULE_DIR$/US_Financial_News_Articles/2018_03" />
+      <excludeFolder url="file://$MODULE_DIR$/US_Financial_News_Articles/2018_04" />
+      <excludeFolder url="file://$MODULE_DIR$/US_Financial_News_Articles/2018_05" />
+    </content>
+    <orderEntry type="inheritedJdk" />
+    <orderEntry type="sourceFolder" forTests="false" />
+  </component>
+</module>
