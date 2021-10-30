@@ -1,0 +1,2 @@
+满足输入的布尔查询结果如下：
+{'news_0057784.json', 'news_0057794.json', 'news_0057785.json', 'news_0057795.json', 'news_0057789.json', 'news_0057796.json', 'news_0057800.json', 'news_0057788.json', 'news_0057793.json', 'blogs_0000603.json', 'news_0057798.json'}

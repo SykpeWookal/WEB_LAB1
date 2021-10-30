@@ -1,79 +1,79 @@
-compani:  {'news_0057791.json', 'news_0057797.json', 'news_0057795.json', 'blogs_0000601.json', 'news_0057796.json', 'news_0057790.json', 'news_0057793.json', 'blogs_0000105.json', 'news_0057798.json', 'news_0057784.json', 'news_0057786.json', 'blogs_0000417.json', 'news_0057788.json', 'blogs_0000102.json', 'blogs_0000010.json', 'news_0057789.json', 'news_0057799.json', 'blogs_0000603.json', 'news_0057787.json', 'news_0057785.json', 'news_0057794.json'}
-percent:  {'blogs_0000601.json', 'blogs_0000415.json', 'blogs_0000105.json', 'blogs_0000001.json', 'news_0057798.json', 'news_0057800.json', 'blogs_0000103.json', 'blogs_0000603.json', 'news_0057793.json'}
-incom:  {'blogs_0000083.json', 'news_0057795.json', 'news_0057789.json', 'news_0057784.json', 'blogs_0000603.json', 'news_0057793.json', 'news_0057794.json'}
-quarter:  {'news_0057786.json', 'news_0057795.json', 'news_0057784.json', 'news_0057793.json', 'blogs_0000603.json', 'news_0057785.json'}
-financi:  {'blogs_0000417.json', 'blogs_0000048.json', 'blogs_0000105.json', 'news_0057786.json', 'news_0057795.json', 'news_0057800.json', 'news_0057784.json', 'news_0057793.json', 'news_0057785.json'}
-share:  {'blogs_0000105.json', 'blogs_0000102.json', 'news_0057795.json', 'news_0057800.json', 'blogs_0000010.json', 'news_0057799.json', 'news_0057796.json', 'news_0057784.json', 'news_0057793.json', 'news_0057786.json'}
-cash:  {'news_0057788.json', 'news_0057795.json', 'news_0057800.json', 'news_0057789.json', 'news_0057784.json', 'news_0057793.json'}
-march:  {'blogs_0000101.json', 'blogs_0000416.json', 'news_0057796.json', 'blogs_0000603.json', 'news_0057793.json'}
-statement:  {'blogs_0000417.json', 'blogs_0000048.json', 'blogs_0000105.json', 'news_0057798.json', 'news_0057795.json', 'news_0057800.json', 'blogs_0000103.json', 'news_0057784.json', 'news_0057793.json', 'news_0057794.json'}
-busi:  {'news_0057798.json', 'news_0057795.json', 'news_0057800.json', 'news_0057796.json', 'news_0057784.json', 'news_0057793.json', 'blogs_0000603.json', 'news_0057785.json', 'news_0057794.json'}
-billion:  {'news_0057798.json', 'news_0057795.json', 'news_0057800.json', 'news_0057799.json', 'blogs_0000104.json'}
-market:  {'blogs_0000002.json', 'blogs_0000001.json', 'news_0057795.json', 'blogs_0000103.json', 'news_0057792.json', 'news_0057784.json', 'blogs_0000603.json', 'news_0057793.json', 'news_0057785.json', 'news_0057794.json'}
-tax:  {'blogs_0000102.json', 'news_0057795.json', 'news_0057799.json', 'news_0057784.json', 'news_0057793.json', 'blogs_0000603.json', 'news_0057794.json'}
-loss:  {'blogs_0000105.json', 'news_0057795.json', 'news_0057800.json', 'news_0057784.json', 'news_0057793.json', 'news_0057786.json'}
-presid:  {'blogs_0000417.json', 'blogs_0000002.json', 'news_0057798.json', 'blogs_0000416.json', 'news_0057794.json'}
-sale:  {'blogs_0000601.json', 'blogs_0000102.json', 'news_0057795.json', 'news_0057784.json', 'news_0057793.json', 'blogs_0000603.json'}
-revenu:  {'news_0057799.json', 'news_0057784.json', 'blogs_0000603.json', 'news_0057786.json'}
-asset:  {'blogs_0000102.json', 'news_0057795.json', 'news_0057800.json', 'news_0057784.json', 'news_0057793.json', 'news_0057794.json'}
-sourc:  {'news_0057788.json', 'news_0057791.json', 'news_0057797.json', 'news_0057786.json', 'news_0057798.json', 'news_0057795.json', 'news_0057789.json', 'news_0057796.json', 'news_0057799.json', 'news_0057784.json', 'news_0057787.json', 'news_0057785.json', 'news_0057794.json'}
-report:  {'blogs_0000101.json', 'blogs_0000083.json', 'blogs_0000105.json', 'news_0057798.json', 'news_0057795.json', 'news_0057800.json', 'blogs_0000010.json', 'news_0057799.json', 'news_0057792.json', 'news_0057784.json', 'blogs_0000603.json', 'news_0057793.json'}
-earn:  {'blogs_0000601.json', 'blogs_0000102.json', 'news_0057795.json', 'news_0057799.json', 'news_0057784.json', 'news_0057793.json', 'news_0057786.json'}
-capit:  {'news_0057795.json', 'blogs_0000416.json', 'news_0057784.json', 'blogs_0000603.json', 'news_0057786.json'}
-growth:  {'blogs_0000102.json', 'news_0057795.json', 'blogs_0000103.json', 'news_0057784.json', 'blogs_0000603.json'}
-bank:  {'news_0057795.json', 'news_0057792.json', 'news_0057793.json'}
-oper:  {'blogs_0000105.json', 'news_0057795.json', 'news_0057784.json', 'news_0057793.json', 'news_0057785.json', 'news_0057794.json'}
-manag:  {'news_0057795.json', 'news_0057784.json', 'blogs_0000104.json', 'news_0057793.json', 'blogs_0000603.json', 'news_0057785.json', 'news_0057794.json'}
-stock:  {'blogs_0000002.json', 'blogs_0000001.json', 'blogs_0000105.json', 'blogs_0000102.json', 'news_0057795.json', 'news_0057800.json', 'news_0057796.json', 'news_0057784.json', 'blogs_0000603.json', 'news_0057793.json'}
+compani:  {'news_0057784.json', 'news_0057785.json', 'news_0057793.json', 'blogs_0000102.json', 'news_0057786.json', 'news_0057794.json', 'news_0057789.json', 'news_0057795.json', 'news_0057796.json', 'blogs_0000417.json', 'news_0057787.json', 'blogs_0000603.json', 'news_0057798.json', 'blogs_0000105.json', 'news_0057797.json', 'news_0057788.json', 'blogs_0000601.json', 'news_0057791.json', 'blogs_0000010.json', 'news_0057790.json', 'news_0057799.json'}
+percent:  {'blogs_0000415.json', 'blogs_0000105.json', 'blogs_0000103.json', 'news_0057800.json', 'blogs_0000601.json', 'news_0057793.json', 'blogs_0000001.json', 'blogs_0000603.json', 'news_0057798.json'}
+incom:  {'news_0057784.json', 'news_0057794.json', 'news_0057789.json', 'news_0057795.json', 'blogs_0000083.json', 'news_0057793.json', 'blogs_0000603.json'}
+quarter:  {'news_0057784.json', 'news_0057786.json', 'news_0057785.json', 'news_0057795.json', 'news_0057793.json', 'blogs_0000603.json'}
+financi:  {'blogs_0000105.json', 'news_0057784.json', 'news_0057786.json', 'blogs_0000048.json', 'news_0057785.json', 'news_0057795.json', 'news_0057800.json', 'blogs_0000417.json', 'news_0057793.json'}
+share:  {'blogs_0000105.json', 'blogs_0000102.json', 'news_0057784.json', 'news_0057786.json', 'news_0057795.json', 'news_0057796.json', 'news_0057800.json', 'news_0057793.json', 'blogs_0000010.json', 'news_0057799.json'}
+cash:  {'news_0057784.json', 'news_0057795.json', 'news_0057789.json', 'news_0057788.json', 'news_0057800.json', 'news_0057793.json'}
+march:  {'blogs_0000416.json', 'blogs_0000101.json', 'news_0057796.json', 'news_0057793.json', 'blogs_0000603.json'}
+statement:  {'blogs_0000105.json', 'news_0057784.json', 'news_0057794.json', 'blogs_0000103.json', 'blogs_0000048.json', 'news_0057795.json', 'news_0057800.json', 'blogs_0000417.json', 'news_0057793.json', 'news_0057798.json'}
+busi:  {'news_0057784.json', 'news_0057794.json', 'news_0057785.json', 'news_0057795.json', 'news_0057796.json', 'news_0057800.json', 'news_0057793.json', 'blogs_0000603.json', 'news_0057798.json'}
+billion:  {'news_0057795.json', 'blogs_0000104.json', 'news_0057800.json', 'news_0057799.json', 'news_0057798.json'}
+market:  {'news_0057784.json', 'news_0057794.json', 'blogs_0000103.json', 'news_0057785.json', 'news_0057795.json', 'news_0057792.json', 'news_0057793.json', 'blogs_0000001.json', 'blogs_0000603.json', 'blogs_0000002.json'}
+tax:  {'blogs_0000102.json', 'news_0057784.json', 'news_0057794.json', 'news_0057795.json', 'news_0057793.json', 'blogs_0000603.json', 'news_0057799.json'}
+loss:  {'blogs_0000105.json', 'news_0057784.json', 'news_0057786.json', 'news_0057795.json', 'news_0057800.json', 'news_0057793.json'}
+presid:  {'blogs_0000416.json', 'news_0057794.json', 'blogs_0000417.json', 'blogs_0000002.json', 'news_0057798.json'}
+sale:  {'blogs_0000102.json', 'news_0057784.json', 'news_0057795.json', 'blogs_0000601.json', 'news_0057793.json', 'blogs_0000603.json'}
+revenu:  {'news_0057799.json', 'blogs_0000603.json', 'news_0057784.json', 'news_0057786.json'}
+asset:  {'blogs_0000102.json', 'news_0057784.json', 'news_0057794.json', 'news_0057795.json', 'news_0057800.json', 'news_0057793.json'}
+sourc:  {'news_0057784.json', 'news_0057786.json', 'news_0057794.json', 'news_0057787.json', 'news_0057785.json', 'news_0057789.json', 'news_0057795.json', 'news_0057797.json', 'news_0057788.json', 'news_0057796.json', 'news_0057791.json', 'news_0057799.json', 'news_0057798.json'}
+report:  {'blogs_0000105.json', 'news_0057784.json', 'news_0057795.json', 'blogs_0000101.json', 'news_0057792.json', 'blogs_0000083.json', 'news_0057800.json', 'news_0057793.json', 'blogs_0000010.json', 'blogs_0000603.json', 'news_0057799.json', 'news_0057798.json'}
+earn:  {'blogs_0000102.json', 'news_0057784.json', 'news_0057786.json', 'news_0057795.json', 'blogs_0000601.json', 'news_0057793.json', 'news_0057799.json'}
+capit:  {'blogs_0000416.json', 'news_0057784.json', 'news_0057786.json', 'news_0057795.json', 'blogs_0000603.json'}
+growth:  {'blogs_0000102.json', 'news_0057784.json', 'blogs_0000103.json', 'news_0057795.json', 'blogs_0000603.json'}
+bank:  {'news_0057795.json', 'news_0057793.json', 'news_0057792.json'}
+oper:  {'blogs_0000105.json', 'news_0057784.json', 'news_0057794.json', 'news_0057785.json', 'news_0057795.json', 'news_0057793.json'}
+manag:  {'news_0057784.json', 'news_0057794.json', 'news_0057785.json', 'news_0057795.json', 'blogs_0000104.json', 'news_0057793.json', 'blogs_0000603.json'}
+stock:  {'blogs_0000105.json', 'blogs_0000102.json', 'news_0057784.json', 'news_0057795.json', 'news_0057796.json', 'news_0057800.json', 'news_0057793.json', 'blogs_0000001.json', 'blogs_0000603.json', 'blogs_0000002.json'}
 compar:  {'news_0057795.json', 'news_0057784.json', 'news_0057793.json'}
-cost:  {'blogs_0000601.json', 'blogs_0000602.json', 'blogs_0000105.json', 'news_0057795.json', 'blogs_0000416.json', 'blogs_0000103.json', 'news_0057799.json', 'news_0057784.json', 'blogs_0000603.json', 'news_0057794.json'}
-servic:  {'blogs_0000102.json', 'news_0057795.json', 'news_0057789.json', 'blogs_0000103.json', 'news_0057790.json', 'news_0057784.json', 'news_0057793.json', 'news_0057785.json', 'news_0057794.json'}
-trump:  {'blogs_0000101.json', 'blogs_0000002.json'}
-invest:  {'blogs_0000102.json', 'news_0057795.json', 'news_0057800.json', 'blogs_0000010.json', 'news_0057789.json', 'news_0057784.json', 'news_0057793.json', 'news_0057785.json', 'news_0057794.json'}
+cost:  {'blogs_0000105.json', 'blogs_0000416.json', 'news_0057784.json', 'news_0057794.json', 'blogs_0000103.json', 'news_0057795.json', 'blogs_0000601.json', 'blogs_0000602.json', 'blogs_0000603.json', 'news_0057799.json'}
+servic:  {'blogs_0000102.json', 'news_0057784.json', 'news_0057794.json', 'blogs_0000103.json', 'news_0057785.json', 'news_0057789.json', 'news_0057795.json', 'news_0057793.json', 'news_0057790.json'}
+trump:  {'blogs_0000002.json', 'blogs_0000101.json'}
+invest:  {'blogs_0000102.json', 'news_0057784.json', 'news_0057794.json', 'news_0057785.json', 'news_0057789.json', 'news_0057795.json', 'news_0057800.json', 'news_0057793.json', 'blogs_0000010.json'}
 expens:  {'news_0057795.json', 'news_0057784.json', 'news_0057793.json'}
-govern:  {'blogs_0000101.json', 'news_0057789.json', 'blogs_0000416.json', 'blogs_0000102.json'}
-peopl:  {'blogs_0000104.json', 'blogs_0000010.json', 'blogs_0000416.json'}
-common:  {'news_0057795.json', 'news_0057793.json', 'news_0057796.json'}
-current:  {'news_0057793.json', 'news_0057795.json', 'news_0057784.json', 'blogs_0000105.json'}
-global:  {'blogs_0000415.json', 'blogs_0000602.json', 'blogs_0000102.json', 'news_0057798.json', 'blogs_0000103.json', 'news_0057784.json', 'blogs_0000104.json', 'blogs_0000603.json', 'news_0057785.json'}
-secur:  {'blogs_0000105.json', 'news_0057798.json', 'news_0057795.json', 'blogs_0000416.json', 'news_0057784.json', 'blogs_0000603.json', 'news_0057793.json', 'news_0057794.json'}
-investor:  {'blogs_0000002.json', 'blogs_0000102.json', 'blogs_0000010.json', 'news_0057796.json', 'news_0057784.json', 'blogs_0000104.json', 'news_0057785.json', 'news_0057794.json'}
+govern:  {'news_0057789.json', 'blogs_0000102.json', 'blogs_0000416.json', 'blogs_0000101.json'}
+peopl:  {'blogs_0000416.json', 'blogs_0000104.json', 'blogs_0000010.json'}
+common:  {'news_0057796.json', 'news_0057795.json', 'news_0057793.json'}
+current:  {'news_0057795.json', 'blogs_0000105.json', 'news_0057784.json', 'news_0057793.json'}
+global:  {'blogs_0000415.json', 'blogs_0000102.json', 'news_0057784.json', 'blogs_0000103.json', 'news_0057785.json', 'blogs_0000104.json', 'blogs_0000602.json', 'blogs_0000603.json', 'news_0057798.json'}
+secur:  {'blogs_0000105.json', 'blogs_0000416.json', 'news_0057784.json', 'news_0057794.json', 'news_0057795.json', 'news_0057793.json', 'blogs_0000603.json', 'news_0057798.json'}
+investor:  {'blogs_0000102.json', 'news_0057784.json', 'news_0057794.json', 'news_0057785.json', 'blogs_0000104.json', 'news_0057796.json', 'blogs_0000010.json', 'blogs_0000002.json'}
 equiti:  {'news_0057795.json', 'news_0057800.json', 'news_0057784.json', 'news_0057793.json'}
-futur:  {'blogs_0000415.json', 'blogs_0000609.json', 'news_0057795.json', 'news_0057800.json', 'blogs_0000103.json', 'news_0057784.json', 'news_0057793.json', 'news_0057794.json'}
+futur:  {'blogs_0000415.json', 'news_0057784.json', 'news_0057794.json', 'blogs_0000103.json', 'news_0057795.json', 'blogs_0000609.json', 'news_0057800.json', 'news_0057793.json'}
 china:  {'news_0057800.json'}
-chief:  {'news_0057795.json', 'blogs_0000083.json', 'news_0057794.json', 'blogs_0000603.json'}
-releas:  {'blogs_0000101.json', 'blogs_0000105.json', 'news_0057795.json', 'news_0057784.json', 'blogs_0000603.json', 'news_0057793.json', 'news_0057785.json', 'news_0057794.json'}
-averag:  {'news_0057793.json', 'news_0057795.json', 'blogs_0000602.json', 'blogs_0000103.json'}
-product:  {'blogs_0000601.json', 'blogs_0000105.json', 'blogs_0000102.json', 'news_0057795.json', 'news_0057796.json', 'news_0057784.json', 'blogs_0000603.json'}
-rate:  {'blogs_0000602.json', 'blogs_0000105.json', 'news_0057795.json', 'news_0057793.json', 'blogs_0000603.json'}
-oil:  {'news_0057798.json', 'blogs_0000102.json'}
-perform:  {'news_0057795.json', 'news_0057784.json', 'blogs_0000001.json', 'news_0057794.json'}
+chief:  {'blogs_0000603.json', 'news_0057795.json', 'news_0057794.json', 'blogs_0000083.json'}
+releas:  {'blogs_0000105.json', 'news_0057784.json', 'news_0057794.json', 'news_0057785.json', 'news_0057795.json', 'blogs_0000101.json', 'news_0057793.json', 'blogs_0000603.json'}
+averag:  {'news_0057795.json', 'news_0057793.json', 'blogs_0000103.json', 'blogs_0000602.json'}
+product:  {'blogs_0000105.json', 'blogs_0000102.json', 'news_0057784.json', 'news_0057795.json', 'news_0057796.json', 'blogs_0000601.json', 'blogs_0000603.json'}
+rate:  {'blogs_0000105.json', 'news_0057795.json', 'news_0057793.json', 'blogs_0000602.json', 'blogs_0000603.json'}
+oil:  {'blogs_0000102.json', 'news_0057798.json'}
+perform:  {'blogs_0000001.json', 'news_0057784.json', 'news_0057794.json', 'news_0057795.json'}
 ebitda:  
-trade:  {'blogs_0000415.json', 'blogs_0000609.json', 'blogs_0000001.json', 'blogs_0000102.json', 'news_0057795.json', 'news_0057800.json', 'news_0057796.json', 'blogs_0000603.json'}
-intern:  {'blogs_0000001.json', 'blogs_0000602.json', 'news_0057784.json', 'blogs_0000603.json', 'news_0057785.json'}
-dilut:  {'news_0057795.json', 'news_0057784.json', 'news_0057793.json', 'news_0057786.json'}
+trade:  {'blogs_0000415.json', 'blogs_0000102.json', 'news_0057795.json', 'blogs_0000609.json', 'news_0057796.json', 'news_0057800.json', 'blogs_0000001.json', 'blogs_0000603.json'}
+intern:  {'news_0057784.json', 'news_0057785.json', 'blogs_0000602.json', 'blogs_0000001.json', 'blogs_0000603.json'}
+dilut:  {'news_0057795.json', 'news_0057784.json', 'news_0057786.json', 'news_0057793.json'}
 confer:  {'news_0057785.json', 'news_0057784.json'}
 debt:  {'news_0057800.json'}
-coverag:  {'news_0057788.json', 'news_0057791.json', 'news_0057797.json', 'news_0057789.json', 'news_0057787.json', 'news_0057786.json'}
-read:  {'blogs_0000101.json', 'blogs_0000083.json', 'news_0057800.json', 'news_0057789.json', 'blogs_0000104.json', 'blogs_0000603.json'}
-develop:  {'news_0057795.json', 'news_0057800.json', 'news_0057784.json', 'blogs_0000104.json', 'blogs_0000603.json'}
-news:  {'news_0057790.json', 'blogs_0000048.json', 'news_0057793.json'}
-week:  {'blogs_0000048.json', 'news_0057784.json', 'news_0057800.json', 'news_0057785.json'}
-board:  {'blogs_0000417.json', 'news_0057795.json', 'news_0057793.json', 'news_0057796.json'}
-exchang:  {'news_0057798.json', 'news_0057795.json', 'news_0057800.json', 'news_0057784.json', 'news_0057787.json'}
-technolog:  {'blogs_0000417.json', 'blogs_0000601.json', 'blogs_0000105.json', 'blogs_0000102.json', 'news_0057800.json', 'news_0057784.json', 'blogs_0000104.json'}
+coverag:  {'news_0057786.json', 'news_0057787.json', 'news_0057789.json', 'news_0057797.json', 'news_0057788.json', 'news_0057791.json'}
+read:  {'news_0057789.json', 'blogs_0000101.json', 'blogs_0000104.json', 'blogs_0000083.json', 'news_0057800.json', 'blogs_0000603.json'}
+develop:  {'news_0057784.json', 'news_0057795.json', 'blogs_0000104.json', 'news_0057800.json', 'blogs_0000603.json'}
+news:  {'blogs_0000048.json', 'news_0057790.json', 'news_0057793.json'}
+week:  {'blogs_0000048.json', 'news_0057785.json', 'news_0057784.json', 'news_0057800.json'}
+board:  {'news_0057796.json', 'blogs_0000417.json', 'news_0057795.json', 'news_0057793.json'}
+exchang:  {'news_0057784.json', 'news_0057787.json', 'news_0057795.json', 'news_0057800.json', 'news_0057798.json'}
+technolog:  {'blogs_0000105.json', 'blogs_0000102.json', 'news_0057784.json', 'blogs_0000104.json', 'news_0057800.json', 'blogs_0000417.json', 'blogs_0000601.json'}
 addit:  {'news_0057795.json', 'news_0057784.json', 'news_0057793.json', 'news_0057798.json'}
-execut:  {'blogs_0000101.json', 'blogs_0000083.json', 'news_0057795.json', 'news_0057784.json', 'news_0057794.json'}
-gaap:  {'news_0057795.json', 'news_0057784.json', 'news_0057786.json'}
-industri:  {'blogs_0000601.json', 'news_0057798.json', 'news_0057795.json', 'blogs_0000103.json', 'news_0057784.json', 'blogs_0000104.json', 'blogs_0000603.json', 'news_0057794.json'}
-profit:  {'blogs_0000601.json', 'blogs_0000102.json', 'news_0057800.json', 'news_0057784.json', 'news_0057793.json'}
-impact:  {'news_0057795.json', 'news_0057784.json', 'blogs_0000603.json'}
-liabil:  {'blogs_0000105.json', 'news_0057795.json', 'news_0057800.json', 'news_0057784.json', 'news_0057793.json'}
-price:  {'blogs_0000601.json', 'blogs_0000415.json', 'blogs_0000105.json', 'blogs_0000102.json', 'news_0057798.json', 'news_0057795.json', 'blogs_0000103.json', 'news_0057784.json', 'blogs_0000603.json', 'news_0057793.json', 'news_0057794.json'}
-risk:  {'blogs_0000102.json', 'news_0057795.json', 'news_0057784.json', 'news_0057793.json', 'blogs_0000603.json', 'news_0057794.json'}
-chang:  {'blogs_0000601.json', 'news_0057797.json', 'news_0057795.json', 'news_0057796.json', 'news_0057784.json', 'news_0057793.json', 'news_0057794.json'}
-deal:  {'blogs_0000101.json', 'news_0057794.json', 'news_0057798.json'}
+execut:  {'news_0057784.json', 'news_0057794.json', 'news_0057795.json', 'blogs_0000101.json', 'blogs_0000083.json'}
+gaap:  {'news_0057784.json', 'news_0057786.json', 'news_0057795.json'}
+industri:  {'news_0057784.json', 'news_0057794.json', 'blogs_0000103.json', 'news_0057795.json', 'blogs_0000104.json', 'blogs_0000601.json', 'blogs_0000603.json', 'news_0057798.json'}
+profit:  {'blogs_0000102.json', 'news_0057784.json', 'news_0057800.json', 'blogs_0000601.json', 'news_0057793.json'}
+impact:  {'blogs_0000603.json', 'news_0057784.json', 'news_0057795.json'}
+liabil:  {'blogs_0000105.json', 'news_0057784.json', 'news_0057795.json', 'news_0057800.json', 'news_0057793.json'}
+price:  {'blogs_0000415.json', 'blogs_0000105.json', 'blogs_0000102.json', 'news_0057784.json', 'news_0057794.json', 'blogs_0000103.json', 'news_0057795.json', 'blogs_0000601.json', 'news_0057793.json', 'blogs_0000603.json', 'news_0057798.json'}
+risk:  {'blogs_0000102.json', 'news_0057784.json', 'news_0057794.json', 'news_0057795.json', 'news_0057793.json', 'blogs_0000603.json'}
+chang:  {'news_0057784.json', 'news_0057794.json', 'news_0057795.json', 'news_0057797.json', 'news_0057796.json', 'blogs_0000601.json', 'news_0057793.json'}
+deal:  {'news_0057794.json', 'blogs_0000101.json', 'news_0057798.json'}
 media:  {'news_0057790.json', 'news_0057794.json'}
 energi:  {'blogs_0000102.json'}
-view:  {'news_0057786.json', 'news_0057798.json', 'news_0057795.json', 'news_0057799.json', 'news_0057796.json', 'news_0057784.json', 'blogs_0000603.json', 'news_0057785.json', 'news_0057794.json'}
-say:  {'blogs_0000001.json', 'news_0057797.json', 'news_0057795.json', 'news_0057792.json', 'blogs_0000101.json', 'blogs_0000048.json', 'blogs_0000601.json', 'blogs_0000416.json', 'blogs_0000105.json', 'news_0057798.json', 'news_0057800.json', 'blogs_0000103.json', 'news_0057784.json', 'blogs_0000104.json', 'blogs_0000417.json', 'blogs_0000083.json', 'news_0057788.json', 'blogs_0000415.json', 'blogs_0000102.json', 'blogs_0000010.json', 'news_0057789.json', 'blogs_0000603.json'}
+view:  {'news_0057784.json', 'news_0057786.json', 'news_0057794.json', 'news_0057785.json', 'news_0057795.json', 'news_0057796.json', 'blogs_0000603.json', 'news_0057799.json', 'news_0057798.json'}
+say:  {'blogs_0000415.json', 'news_0057784.json', 'blogs_0000083.json', 'blogs_0000001.json', 'blogs_0000102.json', 'news_0057789.json', 'news_0057795.json', 'news_0057800.json', 'blogs_0000417.json', 'blogs_0000416.json', 'blogs_0000048.json', 'news_0057792.json', 'blogs_0000104.json', 'blogs_0000603.json', 'news_0057798.json', 'blogs_0000105.json', 'blogs_0000103.json', 'news_0057797.json', 'blogs_0000101.json', 'news_0057788.json', 'blogs_0000601.json', 'blogs_0000010.json'}

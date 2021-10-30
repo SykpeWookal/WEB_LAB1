@@ -9,7 +9,6 @@ from nltk.stem import WordNetLemmatizer  # 词性还原
 if __name__ == '__main__':
     InvertedIndex = {}
     SearchTerm = set()
-    TfIdf_OnlySearchWordArray = []
     with open("../实验一查询词表.txt", "r") as f:
         for line in f.readlines():
             line = line.strip('\n')  # 去掉列表中每一个元素的换行符
@@ -24,7 +23,9 @@ if __name__ == '__main__':
     interpunctuations = [',', '.', ':', ';', '?', '(', ')', '[', ']', '&', '!', '*', '@', '#', '$', '%', '|', '\'\'', '``', '/']
     DocNameDict = {}
     DocIndex = 0
+    DocCompleteSet = set()#所有文档的全集
     for file in files:
+        DocCompleteSet.add(file)
         DocNameDict[DocIndex] = file
         DocIndex += 1
         f = open(DIR_PATH + file, 'rb')
@@ -120,6 +121,30 @@ if __name__ == '__main__':
     ResultSet = set()
     for i in FinialList:
         if check_op(i) == 0: #操作数
-            OperandStack.append(i)
+            OperandStack.append(InvertedIndex[i])
+        else:
+            if i == 'AND':
+                set1 = OperandStack[-1]
+                OperandStack.pop()
+                set2 = OperandStack[-1]
+                OperandStack.pop()
+                OperandStack.append(set1.intersection(set2))
+            elif i == 'OR':
+                set1 = OperandStack[-1]
+                OperandStack.pop()
+                set2 = OperandStack[-1]
+                OperandStack.pop()
+                OperandStack.append(set1.union(set2))
+            elif i == 'NOT':
+                set1 = OperandStack[-1]
+                OperandStack.pop()
+                OperandStack.append(DocCompleteSet.intersection(set1))
+    #print(OperandStack[0])
 
-
+    OutPut_PATH = os.path.join(PROJECT_DIR_PATH, 'output/bool_search_Result.txt')
+    fresult = open(OutPut_PATH, 'w+')
+    fresult.write('满足输入的布尔查询结果如下：\n')
+    print("满足输入的布尔查询结果如下：")
+    print(OperandStack[0])
+    fresult.write(str(OperandStack[0]))
+    fresult.close()
