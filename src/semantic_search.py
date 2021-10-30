@@ -35,7 +35,7 @@ with open("../实验一查询词表.txt", "r") as f:
 PROJECT_DIR_PATH = os.path.dirname(os.path.abspath(os.path.abspath(__file__)))
 #print(PROJECT_DIR_PATH)
 #DIR_PATH = os.path.join(PROJECT_DIR_PATH, 'US_Financial_News_Articles/2018_01')
-DIR_PATH = os.path.join(PROJECT_DIR_PATH, '../US_Financial_News_Articles/TestSource')
+DIR_PATH = os.path.join(PROJECT_DIR_PATH, '../dataset')
 #print(DIR_PATH)
 files = os.listdir(DIR_PATH)
 #print(len(files))
@@ -51,7 +51,7 @@ for file in files:
     DocIndex += 1
     #print(file)
     #f = open('US_Financial_News_Articles/2018_01/' + file, 'rb')
-    f = open('../US_Financial_News_Articles/TestSource/' + file, 'rb')
+    f = open('../dataset/' + file, 'rb')
     x = json.load(f)
     #print(type(x))
     #print(x['text'])
